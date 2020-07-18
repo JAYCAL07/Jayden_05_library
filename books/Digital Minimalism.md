@@ -1,5 +1,5 @@
 ---
-layout: layout.html
+layout: books.html
 Title: Digital Minimalism
 Author: Cal Newport
 ISBN:  9780241341131
