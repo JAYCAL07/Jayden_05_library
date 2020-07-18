@@ -10,9 +10,11 @@ layout: layout.html
 - <a href="/books/Digital Minimalism.md">Digital Minimalism</a>
 
 <ul>
+{%- for books in collections.books reversed -%}
   <li>
     <a href="{{books.url}}">
       {{ books.data.title }}
     </a>
   </li>
+{%- endfor -%}
 </ul>
