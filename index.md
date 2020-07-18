@@ -8,3 +8,11 @@ layout: layout.html
 - <a href="/books/JavaScript and jQuery.md">JavaScript and jQuery</a>
 - <a href="/books/Head First HTML and CSS.md">Head First HTML and CSS</a>
 - <a href="/books/Digital Minimalism.md">Digital Minimalism</a>
+
+<ul>
+  <li>
+    <a href="{{books.url}}">
+      {{ books.data.title }}
+    </a>
+  </li>
+</ul>
